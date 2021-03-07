@@ -2,7 +2,7 @@ import socket
 # Establecemos el tipo de socket/conexion
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 port = 5000 # Puerto de comunicacion
-sock.bind((' ',port)) # IP y Puerto de conexion en una Tupla
+sock.bind(('',port)) # IP y Puerto de conexion en una Tupla
 
 print ("esperando conexiones en el puerto ", port)
 # Vamos a esperar que un cliente se conecte
