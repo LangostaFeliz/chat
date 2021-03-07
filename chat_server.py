@@ -24,4 +24,4 @@ while command != "END":
 
 con.close() # Cerramos la conexion
 sock.close() # Cerramos el socket
-© 2021 GitHub, Inc.
+
